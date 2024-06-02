@@ -12,11 +12,16 @@ let isPlaying = false;
 let currentTrack = 0;
 
 const tracks = [
-    { src: 'music/song1.mp3', title: 'vikram', artist: 'Anirudh', art: 'vik.jpeg' },
-    { src: 'music/song2.mp3', title: 'Leo', artist: 'Anirudh', art: 'vijay.jpeg' },
-    { src: 'music/song3.mp3', title: 'Pt Sir', artist: 'hiphop', art: 'pt.jpg' },
-    { src: 'music/song4.mp3', title: 'vikram', artist: 'Anirudh', art: 'vik.jpeg' },
-    { src: 'music/song5.mp3', title: 'vikram', artist: 'Anirudh', art: 'vik.jpeg' }
+    { src: 'music/song1.mp3', title: 'vikram', artist: 'Anirudh', art: 'images/vik.jpeg' },
+    { src: 'music/song2.mp3', title: 'Leo', artist: 'Anirudh', art: 'images/vijay.jpeg' },
+    { src: 'music/song3.mp3', title: 'Avesham', artist: 'Sushin ', art: 'images/avesham.jpg' },
+    { src: 'music/song4.mp3', title: 'Premalu', artist: 'Vishnu', art: 'images/premalu.jpg' },
+    { src: 'music/song5.mp3', title: 'Star', artist: 'U1', art: 'images/Star.jpeg' },
+    { src: 'music/song6.mp3', title: 'PS2', artist: 'AR Rahman', art: 'images/ps2.jpg' },
+    { src: 'music/song7.mp3', title: 'Sita Ramam', artist: 'Vishal ', art: 'images/sr.jpg' },
+    { src: 'music/song8.mp3', title: 'Kgf2', artist: 'Ravi Basrur', art: 'images/kgf2.jpg' },
+    { src: 'music/song9.mp3', title: 'PT Sir', artist: 'Hiphop', art: 'images/pt.jpg' },
+    { src: 'music/song10.mp3', title: 'Indian2', artist: 'Anirudh', art: 'images/indian2.jpeg' }
 ];
 
 function loadTrack(trackIndex) {
